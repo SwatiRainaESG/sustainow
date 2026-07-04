@@ -2,7 +2,7 @@
 # Sustainow 
 **A Standalone HTML Carbon Reporting (ESG) Tool**
 
-Sustainow is an intuitive, lightweight, and zero-installation HTML-based prototype designed to simplify corporate carbon accounting and ESG reporting. Inspired by enterprise solutions like Microsoft Sustainability Manager, this tool bridges the gap between raw environmental data and executive-level sustainability insights.
+Sustainow is an intuitive, lightweight, and zero-installation HTML-based prototype designed to simplify corporate carbon accounting and ESG reporting.This tool bridges the gap between raw environmental data and executive-level sustainability insights.
 
 ---
 
