@@ -19,8 +19,8 @@ I am currently pursuing my **M.Sc. in Environmental Geosciences at CZU Prague** 
 With **6 years of professional experience** in water quality monitoring (both field and laboratory analysis), I created **Sustaineo** to solve a common bottleneck in the industry: **translating complex, technical environmental data into clear, actionable ESG strategy for corporate stakeholders.**
 
 This project represents my transition toward **Sustainability Consulting**, demonstrating my ability to leverage digital tools to solve modern climate compliance challenges.
-
-# [TRY NOW](https://swatirainaesg.github.io/sustainow/)
+---
+**[TRY NOW](https://swatirainaesg.github.io/sustainow)**
 ---
 
 ##  Tech Stack
