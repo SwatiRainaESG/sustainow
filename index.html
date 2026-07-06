@@ -122,7 +122,7 @@ footer.app{text-align:center;font-family:var(--mono);font-size:11px;color:#a39d8
 
 <header class="top">
   <div class="brand">
-    <h1>SustonAI</h1>
+    <h1>Sustaineo</h1>
     <span class="tag">ESG Emissions Workbench</span>
   </div>
   <div class="meta" id="headerMeta">No company set &middot; Reporting year 2026</div>
@@ -414,7 +414,7 @@ footer.app{text-align:center;font-family:var(--mono);font-size:11px;color:#a39d8
 </section>
 
 </main>
-<footer class="app">SustonAI Workbench &middot; local-only, no data leaves this browser &middot; built for ESG consulting workflows</footer>
+<footer class="app">Sustaineo Workbench &middot; local-only, no data leaves this browser &middot; built for ESG consulting workflows</footer>
 
 <script>
 /* ---------------- DATA MODEL ---------------- */
@@ -448,7 +448,7 @@ const DEFAULT_FACTORS = [
 let DB = load();
 function load(){
   try{
-    const raw = localStorage.getItem('sustonai_db');
+    const raw = localStorage.getItem('Sustaineo_db');
     if(raw) return JSON.parse(raw);
   }catch(e){}
   return {
@@ -457,7 +457,7 @@ function load(){
     factors: JSON.parse(JSON.stringify(DEFAULT_FACTORS))
   };
 }
-function save(){ localStorage.setItem('sustonai_db', JSON.stringify(DB)); renderAll(); }
+function save(){ localStorage.setItem('Sustaineo_db', JSON.stringify(DB)); renderAll(); }
 function uid(){ return Math.random().toString(36).slice(2,9); }
 function fmt(n,d=2){ return Number(n||0).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d}); }
 
@@ -735,7 +735,7 @@ function renderReports(){
 function download(filename, text){
   const a=document.createElement('a'); a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(text); a.download=filename; a.click();
 }
-function exportJSON(){ download(`sustonai_export_${Date.now()}.json`, JSON.stringify(DB,null,2)); }
+function exportJSON(){ download(`Sustaineo_export_${Date.now()}.json`, JSON.stringify(DB,null,2)); }
 function exportCSV(kind){
   const map = {
     scope1:['category','name','facility','factorName','qty','unit','date','co2e'],
@@ -746,7 +746,7 @@ function exportCSV(kind){
   };
   const cols = map[kind]; const rows = DB[kind];
   const csv = [cols.join(',')].concat(rows.map(r=>cols.map(c=>JSON.stringify(r[c]??'')).join(','))).join('\n');
-  download(`sustonai_${kind}_${Date.now()}.csv`, csv);
+  download(`Sustaineo_${kind}_${Date.now()}.csv`, csv);
 }
 function importJSON(e){
   const file = e.target.files[0]; if(!file) return;
@@ -759,7 +759,7 @@ function importJSON(e){
 }
 function resetAll(){
   if(confirm('This will erase all locally stored data. Continue?')){
-    localStorage.removeItem('sustonai_db'); DB = load(); save();
+    localStorage.removeItem('Sustaineo_db'); DB = load(); save();
   }
 }
 
