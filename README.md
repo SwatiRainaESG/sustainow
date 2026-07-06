@@ -1,8 +1,8 @@
 
-# Sustainow 
+# Sustaineo 
 **A Standalone HTML Carbon Reporting (ESG) Tool**
 
-Sustainow is an intuitive, lightweight, and zero-installation HTML-based prototype designed to simplify corporate carbon accounting and ESG reporting.This tool bridges the gap between raw environmental data and executive-level sustainability insights.
+Sustaineo is an intuitive, lightweight, and zero-installation HTML-based prototype designed to simplify corporate carbon accounting and ESG reporting.This tool bridges the gap between raw environmental data and executive-level sustainability insights.
 
 ---
 
@@ -16,7 +16,7 @@ Sustainow is an intuitive, lightweight, and zero-installation HTML-based prototy
 ##  Why I Built This (About the Creator)
 I am currently pursuing my **M.Sc. in Environmental Geosciences at CZU Prague** and completing a traineeship at **TU Dresden** focusing on water-environment-toxicology. 
 
-With **6 years of professional experience** in water quality monitoring (both field and laboratory analysis), I created **Sustainow** to solve a common bottleneck in the industry: **translating complex, technical environmental data into clear, actionable ESG strategy for corporate stakeholders.**
+With **6 years of professional experience** in water quality monitoring (both field and laboratory analysis), I created **Sustaineo** to solve a common bottleneck in the industry: **translating complex, technical environmental data into clear, actionable ESG strategy for corporate stakeholders.**
 
 This project represents my transition toward **Sustainability Consulting**, demonstrating my ability to leverage digital tools to solve modern climate compliance challenges.
 
